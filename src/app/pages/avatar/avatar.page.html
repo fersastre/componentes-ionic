@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>avatar</ion-title>
+
+
+
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <ion-img src="/assets/stan-lee.jpg"></ion-img><!--  es mas eficiente usarlo asi porque utiliza carga peresoza -->
+        <!-- <img src="/assets/stan-lee.jpg" /> -->
+      </ion-avatar>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-chip color="primary" mode="ios" outline="true">
+  <ion-avatar>
+    <img src="/assets/stan-lee.jpg" />
+  </ion-avatar>
+  <ion-label>Chip Avatar</ion-label>
+</ion-chip>
+
+
+<ion-list>
+  <ion-item>
+    <ion-avatar slot="end">
+      <img src="/assets/stan-lee.jpg" />
+    </ion-avatar>
+    <ion-label>stan lee</ion-label>
+  </ion-item>
+</ion-list>
+
+
+</ion-content>
